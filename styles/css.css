@@ -210,9 +210,8 @@ footer{
     align-items: center
 }
 
+/* el responsive */
 
-
-/* Desktop grande (pantallas muy anchas) */
 @media (min-width: 1200px) {
     .division {
         gap: 80px;
@@ -223,7 +222,6 @@ footer{
     }
 }
 
-/* Laptops (1024px a 1199px) */
 @media (max-width: 1199px) {
     .division {
         gap: 40px;
@@ -247,7 +245,6 @@ footer{
 
 }
 
-/* Tablets (768px a 1023px) */
 @media (max-width: 1023px) {
     nav ul {
         flex-wrap: wrap;
@@ -290,7 +287,6 @@ footer{
     }
 }
 
-/* Celulares grandes (480px a 767px) */
 @media (max-width: 767px) {
     ul {
         flex-direction: column;
@@ -338,7 +334,6 @@ footer{
     }
 }
 
-/* Celulares pequeños (<480px) */
 @media (max-width: 479px) {
     .estilo-textos h1 {
         font-size: 24px;
